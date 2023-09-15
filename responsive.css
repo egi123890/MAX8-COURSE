@@ -1,0 +1,116 @@
+@media all and (max-width: 1023px) {
+    /* Header */
+    .bar {
+      display: block !important;
+    }
+  
+    .header-right {
+      display: none;
+    }
+    /* Header */
+  
+    /* Main */
+    .top-wrapper {
+      padding: 180px 0 120px !important;
+    }
+    .top-wrapper h1 {
+      font-size: 34px !important;
+    }
+    .top-wrapper h2 {
+      font-size: 24px !important;
+    }
+    .top-wrapper p {
+      font-size: 21px !important;
+    }
+    /* Main */
+  
+    /* Contact */
+    .title h1 {
+      font-size: 44px !important;
+    }
+    .contact-item {
+      flex-direction: column;
+    }
+    .contact-left,
+    .contact-right {
+      width: 100% !important;
+    }
+  
+    .contact-left {
+      margin-bottom: 40px !important;
+      padding-right: 0 !important;
+    }
+  
+    .address {
+      text-align: center;
+    }
+    /* Contact */
+  }
+  
+  @media all and (max-width: 767px) {
+    /* Main */
+    .top-wrapper h1 {
+      font-size: 24px !important;
+    }
+    .top-wrapper h2 {
+      font-size: 22px !important;
+    }
+    .top-wrapper p {
+      font-size: 16px !important;
+    }
+    /* Main */
+  
+    /* About */
+    .about {
+      padding: 120px 40px !important;
+    }
+    /* About */
+  
+    /* Class */
+    .card {
+      margin: 16px 0;
+    }
+    /* Class */
+  
+    /* Contact */
+    .contact-container {
+      padding: 20px 40px !important;
+      width: 100% !important;
+      margin-bottom: 60px !important;
+    }
+  
+    .title h1 {
+      font-size: 40px !important;
+    }
+  
+    .title p {
+      font-size: 16px !important;
+    }
+  
+    .form-group label {
+      font-size: 16px !important;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      padding: 10px 10px !important;
+      font-size: 16px !important;
+    }
+  
+    .form-submit button {
+      padding: 10px !important;
+      font-size: 16px !important;
+    }
+  
+    .icon svg {
+      width: 10% !important;
+    }
+    /* Contact */
+  
+    /* Footer */
+    .footer-left p {
+      text-align: center;
+    }
+    /* Footer */
+  }
+  
